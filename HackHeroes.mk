@@ -13,7 +13,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=macie_000
-Date                   :=18/10/2018
+Date                   :=20/10/2018
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :=C:/msys64/mingw64/bin/g++.exe
 SharedObjectLinkerName :=C:/msys64/mingw64/bin/g++.exe -shared -fPIC
@@ -38,12 +38,12 @@ MakeDirCommand         :=makedir
 RcCmpOptions           := 
 RcCompilerName         :=C:/msys64/mingw64/bin/windres.exe
 LinkOptions            :=  -o0
-IncludePath            :=  $(IncludeSwitch). $(IncludeSwitch). $(IncludeSwitch)libxl\include_cpp 
+IncludePath            :=  $(IncludeSwitch). $(IncludeSwitch). $(IncludeSwitch)LibXls 
 IncludePCH             := 
 RcIncludePath          := 
-Libs                   := $(LibrarySwitch)xl 
-ArLibs                 :=  "libxl.dll" 
-LibPath                := $(LibraryPathSwitch). $(LibraryPathSwitch). $(LibraryPathSwitch)libxl\bin64 
+Libs                   := 
+ArLibs                 :=  
+LibPath                := $(LibraryPathSwitch). 
 
 ##
 ## Common variables
@@ -52,7 +52,7 @@ LibPath                := $(LibraryPathSwitch). $(LibraryPathSwitch). $(LibraryP
 AR       := C:/msys64/mingw64/bin/ar.exe rcu
 CXX      := C:/msys64/mingw64/bin/g++.exe
 CC       := C:/msys64/mingw64/bin/gcc.exe
-CXXFLAGS :=  -g -O0 -Wall $(Preprocessors)
+CXXFLAGS :=  -g -O0  $(Preprocessors)
 CFLAGS   :=  -g -O0 -Wall $(Preprocessors)
 ASFLAGS  := 
 AS       := C:/msys64/mingw64/bin/as.exe
